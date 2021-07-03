@@ -1,0 +1,92 @@
+#buttons {
+        margin: auto;
+        width: 400px;
+        padding: 10px; 
+        text-align: center;
+    }
+
+#logo {
+        width: 400px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 100px;
+}
+
+#topnavbar {
+    float: right;
+    font-size: 12px;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+#searchbar {
+    width: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    background-image: url(https://img.icons8.com/search);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10px;
+    padding-left: 40px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+button {
+    font-family: arial;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:rgb(239, 240, 241);
+    border: 2px grey; 
+}
+button:hover { 
+    cursor:grab; 
+    border: 1px solid grey; 
+}
+
+.redirect {
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    background-color: rgba(128, 128, 128, 0.075);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 15px; 
+}
+
+.idk {
+    color: grey;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.bottomleft {
+    display: inline-block;
+    padding: 15px; 
+}
+
+.bottomright {
+    display: inline-block;
+    float: right; 
+    padding: 15px;
+}
+
+.idk:hover {
+    text-decoration: underline;
+}
